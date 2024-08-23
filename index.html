@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Landing Page</title>
+    
+</head>
+<body>
+    <nav class="shadow-md flex justify-between">
+        <img src="./lyft.png" alt="" class="h-12 pt-4 pl-10">
+        <span class="border-l-2"></span>
+        <ul class="flex py-5 space-x-10">
+            <li class="cursor-pointer font-bold hover:text-sky-600">DRIVER</li>
+            <li class="cursor-pointer font-medium hover:text-gray-500">Earnings</li>
+            <li class="cursor-pointer font-medium hover:text-gray-500">Cites</li>
+            <li class="cursor-pointer font-medium hover:text-gray-500">Help</li>
+        </ul>
+        <ul class="px-44 py-5 flex space-x-5  justify-end">
+            <span class="border-l-2"></span>
+            <li class="cursor-pointer font-bold hover:text-sky-600">RIDER</li>
+            <span class="border-l-2"></span>
+            <li class="cursor-pointer font-bold hover:text-sky-600">BUSINESS</li>
+            <span class="border-l-2"></span>
+            <li class="cursor-pointer font-bold hover:text-sky-600">LOGIN</li>
+            <span class="border-l-2"></span>
+            <li class="cursor-pointer font-bold hover:text-sky-600">SIGN UP</li>
+        </ul>
+    </nav>
+
+    <main class="flex  pt-10">
+      <div class="w-1/2 ">
+        <img src="https://cdn.pixabay.com/photo/2023/03/19/07/34/car-7862030_1280.jpg" alt="" class="w-6/7 pt-10 pl-10">
+      </div>
+
+      <div class="w-1/2 pt-10 pl-20 ">
+        <h1 class="w-96 font-bold  text-5xl">Make everyday payday </h1>
+        <input type="number" placeholder="Enter your mobile number" class="w-1/2 h-9 mt-8 pl-4 border-2 border-gray-400 rounded-lg">
+        <p class="w-96 pt-8">By providing your phone number and clicking Apply to drive, you consent to receive text messages from Lyft. Text messages may be autodialect, and data rates may apply. The frequency of text messages varies. You may text STOP to cancel any time.</p>
+        <button class="bg-blue-500 text-white hover:bg-violet-600 mt-8 px-3 py-2 rounded-2xl">Apply to drive</button>
+        <input type="checkbox" name="agree" class="ml-5">
+        <label for="agree">I agree to Lyft's <u>Terms of Service</u></label>
+      </div>  
+    </main>
+    
+</body>
+</html>
